@@ -1,0 +1,107 @@
+body {
+    background-image: url('arkaplan/1.png'); /* Resmin dosya yolunu belirtin */
+    background-size: cover; /* Resmi sayfanın tamamını kaplayacak şekilde ölçeklendir */
+    background-repeat: no-repeat; /* Resmin tekrarlanmasını engelle */
+    background-attachment: fixed; /* Resmi sayfada sabit bir konumda tut */
+    background-position: center center; /* Resmi sayfanın ortasında hizala */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#moviePoster {
+    max-width: 100%; /* Resmin maksimum genişliğini ayarlayabilirsiniz */
+    max-height: 70vh; /* Resmin maksimum yüksekliğini ayarlayabilirsiniz */
+    display: block;
+    margin: 0 auto; /* Resmi yatayda ortalamak için */
+    box-shadow: 10px 10px rgb(0, 0, 0);
+}
+.showPosterButton {
+    text-align: center;
+}
+button {
+    text-align: left;
+    height: 100%;
+    width: 600px;
+    box-shadow: inset 5px 5px 5px 5px rgba(0, 0, 0, 0.5); /* İçeri doğru gölge */
+    background-color: rgba(255, 255, 255, 0.5); /* Arkaplan rengi ve opaklık ayarı */
+}
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    font-size: 70px;
+}
+h2 {
+    color: rgb(0, 0, 0);
+}
+.bg-dark-blue {
+    text-align: center;
+    animation: alternate;
+}
+.btn-outline-danger {
+    height: 4%;
+    width: 8%;
+    text-align: center;
+    position: fixed; /* Sabit pozisyon */
+    left: 0;
+    bottom: 0;
+}
+.btn-outline-primary {
+    height: 4%;
+    width: 8%;
+    text-align: center;
+    position: fixed; /* Sabit pozisyon */
+    left: 0;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1px;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.041);
+}
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+#navbar ul li a {
+    padding: 0.5rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+#navbar ul li a:hover {
+    background: rgba(0, 247, 255, 0.137);
+    border-radius: 2px;
+}
+#navbar li {
+    margin-bottom: 7px; /* Menü öğeleri arasına boşluk ekler */
+    margin-right: 12px;
+    box-shadow: inset 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+h3{
+    color: #ffffff;
+}
+h4{
+    position: fixed; /* Sabit pozisyon */
+    top: 0; /* Sayfanın üstüne yerleştir */
+    color: #ffffff;
+}
+p{
+    color: rgb(0, 0, 0);
+}
+h5 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: rgb(0, 0, 0);
+}
+a{
+    font-size: 13px;
+}
